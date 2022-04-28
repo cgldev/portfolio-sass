@@ -2,10 +2,11 @@
 @import "variables";
 @import "mixins";
 @import "home";
+@import "navbar";
 
 body {
   background-color: $primary-color;
-  color: #fff;
+  color: $clr-white;
   height: 100vh;
   font-family: sans-serif;
   line-height: 1;
@@ -18,7 +19,7 @@ h3 {
 }
 
 a {
-  color: #fff;
+  color: $clr-white;
   text-decoration: none;
 }
 
@@ -56,5 +57,5 @@ footer {
   right: 1rem;
   text-align: right;
   padding: 1rem;
-  color: #fff;
+  color: $clr-white;
 }
