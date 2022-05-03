@@ -3,6 +3,7 @@
 @import "mixins";
 @import "home";
 @import "navbar";
+@import "about";
 
 body {
   background-color: $primary-color;
@@ -21,6 +22,10 @@ h3 {
 a {
   color: $clr-white;
   text-decoration: none;
+}
+
+.text-secondary {
+  color: $secondary-color;
 }
 
 header {
